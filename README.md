@@ -54,9 +54,6 @@ This challendge improved my ability to:
 - Display error states dynamically with clear feedback
 - Prevent form submission until inputs are valid
 
-```js
-return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-
 ### Continued development
 
 For futur developments, I would like to:
@@ -70,4 +67,3 @@ For futur developments, I would like to:
 - Frontend Mentor - [@Innocent-Leo](https://www.frontendmentor.io/profile/Innocent-Leo)
 - LinkedIn - [@Innocent-Okeke](https://www.linkedin.com/in/innocentokeke)
 - Twitter - [@itz_saintleo](https://www.twitter.com/itz_saintleo)
-```
