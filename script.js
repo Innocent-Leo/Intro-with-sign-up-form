@@ -64,3 +64,12 @@ const success = (e) => {
 const validEmail = (email) => {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 };
+
+const inputs = form.querySelectorAll("input");
+
+inputs.forEach((input) => {
+  input.addEventListener("input", (e) => {
+    const formControl = e.target.parentElement;
+    formControl.classList.remove("error");
+  });
+});
